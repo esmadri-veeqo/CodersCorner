@@ -119,6 +119,19 @@ header hgroup {
   align-items: flex-end;
 }
 
+.document-info{
+  position: absolute;
+  z-index: 100;
+  right: 0;
+  background: red;
+  margin: 0;
+  text-align: right;
+}
+
+#xdocPrimaryOwner > em {
+  display: none;
+}
+
 .titleDivider, #document-title {
   display: none;
 }
