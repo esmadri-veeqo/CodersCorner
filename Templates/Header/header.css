@@ -110,7 +110,10 @@ header hgroup {
 .document-menu {
   position: fixed;
   z-index: 100;
-  top: 30%;}
+  top: 30%;
+  right: 0;
+  width: auto !important;
+}
 
 #contentmenu {
   display: flex;
@@ -157,11 +160,5 @@ header hgroup {
   .document-header {
       opacity: 0;
       pointer-events: none;
-  }
-}
-
-@media (min-width: 992px) {
-  .col-md-5 {
-    width: 100% !important;
   }
 }
