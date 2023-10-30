@@ -96,13 +96,22 @@ header hgroup {
 
 
 #hierarchy {
-  margin: 0 -20px;
-  padding: 10px 20px;
+  margin: 0 -40px;
+  /* padding: 10px 20px; */
   border-radius: 0;
-  background-color: white;
-  position: relative;
+  background-color: #0000003d;
+  position: ABSOLUTE;
   z-index: 20;
-  box-shadow: 0 2px 0 2px rgba(0,0,0,.2);
+  /* box-shadow: 0 2px 0 2px rgba(0,0,0,.2); */
+  /* color: white; */
+  width: 100%;
+}
+
+#contentmenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 @media screen and (min-width: 1200px) {
@@ -126,5 +135,11 @@ header hgroup {
   .document-header {
       opacity: 0;
       pointer-events: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-5 {
+    width: 100% !important;
   }
 }
