@@ -49,43 +49,43 @@ header hgroup {
   transition: all 0.2s; /* Add a smooth transition effect */
 }
 
-.madri-navigation {
+.site {
   text-align: center;
   background-color: #efefef;
   font-size: .7em;
   color: #a6a6a6;
 }
 
-.madri-navigation a {
+.site a {
   color: #929292;
   text-decoration: none;
   transition: all 0.2s; /* Add a smooth transition effect */
 }
 
-.madri-navigation a:hover {
+.site a:hover {
   color: #222;
   transform: scale(1.2);/* Increase the scale to make it larger */
 }
 
-.madri-navigation nav{
+.site nav{
   top:0;
   left:0;
   background:#222;
   width:100%
 }
-.madri-navigation nav a{
+.site nav a{
   padding:10px 30px;
   font-size:1.3em;
   display:inline-block
 }
-.madri-navigation nav a:hover{
+.site nav a:hover{
   background:#333;
   color:#fff
 }
 
 
 @media screen and (min-width: 1200px) {
-  .madri-navigation ~ *:not(.amazon-wiki-toc) {
+  .site nav ~ *:not(.amazon-wiki-toc) {
       max-width: 900px;
       margin-left: auto;
       margin-right: auto;
