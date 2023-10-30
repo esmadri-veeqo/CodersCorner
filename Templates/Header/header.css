@@ -85,7 +85,7 @@ header hgroup {
 
 
 @media screen and (min-width: 1200px) {
-  .site nav ~ *:not(.amazon-wiki-toc) {
+  .site ~ *:not(.amazon-wiki-toc) {
       max-width: 900px;
       margin-left: auto;
       margin-right: auto;
