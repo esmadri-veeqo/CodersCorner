@@ -85,7 +85,7 @@ header hgroup {
 
 
 @media screen and (min-width: 1200px) {
-  .airwolf-navigation ~ *:not(.amazon-wiki-toc) {
+  .madri-navigation ~ *:not(.amazon-wiki-toc) {
       max-width: 900px;
       margin-left: auto;
       margin-right: auto;
