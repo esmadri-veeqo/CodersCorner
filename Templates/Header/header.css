@@ -49,36 +49,36 @@ header hgroup {
   transition: all 0.2s; /* Add a smooth transition effect */
 }
 
-.site {
+.madri-navigation {
   text-align: center;
   background-color: #efefef;
   font-size: .7em;
   color: #a6a6a6;
 }
 
-.site a {
+.madri-navigation a {
   color: #929292;
   text-decoration: none;
   transition: all 0.2s; /* Add a smooth transition effect */
 }
 
-.site a:hover {
+.madri-navigation a:hover {
   color: #222;
   transform: scale(1.2);/* Increase the scale to make it larger */
 }
 
-.site nav{
+.madri-navigation nav{
   top:0;
   left:0;
   background:#222;
   width:100%
 }
-.site nav a{
+.madri-navigation nav a{
   padding:10px 30px;
   font-size:1.3em;
   display:inline-block
 }
-.site nav a:hover{
+.madri-navigation nav a:hover{
   background:#333;
   color:#fff
 }
