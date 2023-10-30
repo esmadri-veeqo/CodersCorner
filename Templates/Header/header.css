@@ -111,8 +111,14 @@ header hgroup {
   position: fixed;
   z-index: 100;
   top: 30%;
-  right: 0;
+  right: -50px;
   width: auto !important;
+  transition: all 0.2s;
+}
+
+.document-menu:hover {
+  /* transform: scale(1.2); */
+  right: 0px;
 }
 
 #contentmenu {
