@@ -82,3 +82,28 @@ header hgroup {
   background:#333;
   color:#fff
 }
+
+
+@media screen and (min-width: 1200px) {
+  .airwolf-navigation ~ *:not(.amazon-wiki-toc) {
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #menuview, #sitewide-announcement-banner {
+      display: none;
+  }
+  .amazon-wiki-toc {
+      display: none;
+  }
+  .edit_section {
+      display: none;
+  }
+  .document-header {
+      opacity: 0;
+      pointer-events: none;
+  }
+}
