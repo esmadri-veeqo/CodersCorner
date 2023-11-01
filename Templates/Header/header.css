@@ -107,15 +107,19 @@ header hgroup {
   width: 100%;
 }
 
-#contentmenu > a, #contentmenu > button{
+#contentmenu > .btn, #contentmenu > span, #contentmenu > #tmMoreActions{
   width: 100%;
+}
+
+#contentmenu > .btn{
+  margin-left: 0;
 }
 
 .document-menu {
   position: fixed;
   z-index: 100;
   top: 30%;
-  right: -50px;
+  right: -103px;
   width: auto !important;
   transition: all 0.2s;
 }
