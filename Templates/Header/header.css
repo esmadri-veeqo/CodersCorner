@@ -107,7 +107,7 @@ header hgroup {
   width: 100%;
 }
 
-#contentmenu > a, button{
+#contentmenu > a, #contentmenu > button{
   width: 100%;
 }
 
