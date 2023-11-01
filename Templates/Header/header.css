@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
+.main{
+  padding-top: 0;
+}
+
 html, body {
   padding: 0;
   margin: 0;
@@ -99,12 +103,13 @@ header hgroup {
   margin: 0 -40px;
   /* padding: 10px 20px; */
   border-radius: 0;
-  background-color: #0000003d;
+  background-color: #222222a1;
   position: ABSOLUTE;
   z-index: 20;
   /* box-shadow: 0 2px 0 2px rgba(0,0,0,.2); */
   /* color: white; */
-  width: 100%;
+  /* width: 100%; */
+  top: 0;
 }
 
 #contentmenu > span, #contentmenu .btn, #contentmenu .btn-group{ 
@@ -116,7 +121,7 @@ header hgroup {
 }
 
 #contentmenu .btn {
-  padding-left: 4px;
+  padding-left: 7px;
   text-align: left;
 }
 
@@ -124,7 +129,7 @@ header hgroup {
   position: fixed;
   z-index: 100;
   top: 30%;
-  right: -111px;
+  right: -105px;
   width: auto !important;
   transition: all 0.2s;
 }
@@ -145,9 +150,16 @@ header hgroup {
   position: absolute;
   z-index: 100;
   right: 0;
-  background: red;
+  background: 222222a1;
   margin: 0;
   text-align: right;
+  margin-top: 0;
+  width: auto;
+  top: 0;
+}
+
+.document-info *, #hierarchy * {
+  color: white;
 }
 
 #xdocPrimaryOwner > em {
